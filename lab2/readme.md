@@ -21,6 +21,7 @@ it directly connects with the client os rather than the browser.
 -Directory management
 -mkdir()
 -rmdir()
+-rm()
 -
 
 
@@ -51,3 +52,4 @@ it directly connects with the client os rather than the browser.
 
 <!-- agar kisi function ke nacdar await use hi arha hai to uske anadra ka data async hona chahiye 
 for this add "async" keyword to use await inside a function -->
+

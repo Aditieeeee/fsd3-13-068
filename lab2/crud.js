@@ -11,6 +11,12 @@ const getCart = async () =>{
     const data = await readFile(FILE, "utf-8");
     return JSON.parse(data);
 };
+
+const add2cart  =async(item)=>{
+    const products =getCart();
+    products.push(item);
+    await saveCart(products);
+};
 const main=async () => {
     
     const cin = readline.createInterface({input:stdin,output:stdout});

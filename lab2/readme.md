@@ -53,3 +53,20 @@ it directly connects with the client os rather than the browser.
 <!-- agar kisi function ke nacdar await use hi arha hai to uske anadra ka data async hona chahiye 
 for this add "async" keyword to use await inside a function -->
 
+
+##CRUD OPRATION
+
+CREATE/INSERT , READ/RETRIEVE , UPDATE , DELETE
+
+##OPERATIONS
+
+1.Add to cart
+2.show cart
+3,remove utem from the cart
+4. update qunatity from cart
+5.checkout
+Note : all items will be stores in hold , spo after termination of program we can retrieve cart details 
+
+##REQUIRED FILE
+1.crud.ja==> contains all methods and entry point 
+2.products.json==>it contains the products details on array form 

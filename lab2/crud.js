@@ -9,7 +9,7 @@ await writeFile(FILE,JSON.stringify(cart,null,2));
 
 const getCart = async () =>{
     const data = await readFile(FILE, "utf-8");
-    return JSON.parse(data);
+    return JSON.parse(data); //datatype done
 };
 
 const add2cart  =async(item)=>{

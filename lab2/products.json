@@ -1,1 +1,15 @@
-[]
+[
+
+{
+    "id": 110,
+    "name": "hp lpatop",
+    "price": 12000,
+    "qty": 2
+},
+{
+    "id": 20,
+    "name": "dell laptop",
+    "price": 15000,
+    "qty": 1    
+}
+]

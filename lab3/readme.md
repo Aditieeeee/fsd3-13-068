@@ -15,3 +15,33 @@ to create npm project we can use
 -it also creates a folder node_modules automtically
 node_modules holds the package/library files
 -generally we ignore node_modules by .gitignore
+
+
+Nodemon - it restart the server automatically when the file changes, 
+to install 
+> npm i nodemon -D
+
+note : -D flag will install this package as developer dependency
+
+- to execute any program , update the packAGE.json then  start the server  as
+<b>npm run dev</b> 
+
+
+## status code
+- 200 ->ok
+- 400 -> unauthorized
+- 404 -> not found 
+- 500 -> internal server error
+
+## content type
+
+- text/plain
+- text/html
+- application/json
+- text/css
+
+the content type nad status code can be send back to client by two ways
+
+1. res.writeHead
+2. res.setHeader
+3. res.statusCode

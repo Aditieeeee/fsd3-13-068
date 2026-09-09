@@ -45,3 +45,31 @@ the content type nad status code can be send back to client by two ways
 1. res.writeHead
 2. res.setHeader
 3. res.statusCode
+## send html file to client
+1.j=html file
+
+- read html file using craeteReadStream
+- pipe it with res object
+
+2.html content
+     send any html tags/content by using
+    res.end('<any html tag'>)
+
+## JSON
+the data is in json format 
+
+json always stores data in the key value pair in closd by curly brackets{}
+array can be stored by square bracket()
+oe pair of curly bracket will represent one object and its property will be seperated by comma ,
+ex: ```{
+    id:1;
+    name:"mobile"
+    price:3500
+    rating:200
+}
+
+```
+
+
+
+

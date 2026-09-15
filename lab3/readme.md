@@ -69,7 +69,8 @@ ex: ```{
 }
 
 ```
-
-
+headers
+headers is usedto tell the client the type of data ,send by the server . 
+it may be html file , json file dta , plain textfiles, css file, any tokens(for login ) , 
 
 

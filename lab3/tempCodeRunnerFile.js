@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
   );
 
   }
-   else if (req.url === "/api/v1/products" && req.method === "POST") {
+   else if (req.url === "/" && req.method === "POST") {
     //console.log("Request:", req);
     let body =''
     req.on('data',(chunk)=>{

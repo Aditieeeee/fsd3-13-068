@@ -74,3 +74,22 @@ headers is usedto tell the client the type of data ,send by the server .
 it may be html file , json file dta , plain textfiles, css file, any tokens(for login ) , 
 
 
+
+# GET REQUEST:
+NO PARAMETER PASSED TO THE SERVER , WE RECEIVE ALL ITEMS . 
+(All items )
+-> can get only one products details . []
+
+#POST REQUEST : 
+TO ADD RECORDS , WE PASS THE VALUE FROM BODY SECTION IN JSPN FORMAT OF API TESTER[ECHO API] .
+(IN POST WE ALWAYS FILL DTAT IN THE BODY OF THE API SERVER)
+
+#DELETE REQUEST:
+WE pass  ANY PAARMETER i.e. id of the product from url  , then it get deleted .
+
+EXAMPLE: (url/id) 
+
+#UPDATE :
+PUT/PATCH:  TO UPDATE , THE SERVER NEED ID from url and body (data ) to update data from the  
+
+
